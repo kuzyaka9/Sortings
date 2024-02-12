@@ -1,0 +1,69 @@
+\begin{theindex}
+
+  \item {countResidents}
+    \subitem {flatsData}, \hyperpage{5}
+
+  \indexspace
+
+  \item {data.txt}, \hyperpage{5}
+
+  \indexspace
+
+  \item {flatNum}
+    \subitem {flatsData}, \hyperpage{5}
+  \item {flatsData}, \hyperpage{2}
+    \subitem {countResidents}, \hyperpage{5}
+    \subitem {flatNum}, \hyperpage{5}
+    \subitem {flatsData}, \hyperpage{3}
+    \subitem {flatSquare}, \hyperpage{5}
+    \subitem {houseNum}, \hyperpage{5}
+    \subitem {operator$<$}, \hyperpage{3}
+    \subitem {operator$<$=}, \hyperpage{3}
+    \subitem {operator$>$}, \hyperpage{4}
+    \subitem {operator$>$=}, \hyperpage{4}
+    \subitem {operator==}, \hyperpage{4}
+    \subitem {ownerName}, \hyperpage{5}
+    \subitem {roomCount}, \hyperpage{5}
+  \item {flatSquare}
+    \subitem {flatsData}, \hyperpage{5}
+
+  \indexspace
+
+  \item {graphics}, \hyperpage{2}
+  \item {graphics.py}, \hyperpage{5}
+
+  \indexspace
+
+  \item {houseNum}
+    \subitem {flatsData}, \hyperpage{5}
+
+  \indexspace
+
+  \item {main.cpp}, \hyperpage{6}
+
+  \indexspace
+
+  \item {operator$<$}
+    \subitem {flatsData}, \hyperpage{3}
+  \item {operator$<$=}
+    \subitem {flatsData}, \hyperpage{3}
+  \item {operator$>$}
+    \subitem {flatsData}, \hyperpage{4}
+  \item {operator$>$=}
+    \subitem {flatsData}, \hyperpage{4}
+  \item {operator==}
+    \subitem {flatsData}, \hyperpage{4}
+  \item {output.txt}, \hyperpage{6}
+  \item {ownerName}
+    \subitem {flatsData}, \hyperpage{5}
+
+  \indexspace
+
+  \item {roomCount}
+    \subitem {flatsData}, \hyperpage{5}
+
+  \indexspace
+
+  \item {timestamps.txt}, \hyperpage{6}
+
+\end{theindex}

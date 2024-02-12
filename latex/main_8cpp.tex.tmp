@@ -1,0 +1,152 @@
+\hypertarget{main_8cpp}{}\doxysubsection{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+{\ttfamily \#include $<$bits/stdc++.\+h$>$}\newline
+Include dependency graph for main.\+cpp\+:
+% FIG 0
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structflatsData}{flats\+Data}}
+\begin{DoxyCompactList}\small\item\em Структура для работы с данным о квартирах \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{main_8cpp_a81698f882a8b4aa8456ac1466f5dc2bc}{generate\+String}} (const int len)
+\begin{DoxyCompactList}\small\item\em Функция для генерации строки определенной длины \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a00a8abf2a208d9b58cca735f154cbca9}{generate\+Data}} (int dim)
+\begin{DoxyCompactList}\small\item\em Функция для генерации данных о пассажирах \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a5d6359d7f4ec6869495a0ed77f50ce48}{read\+From\+File}} (vector$<$ \mbox{\hyperlink{structflatsData}{flats\+Data}} $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Функция чтения данных из файла о квартираъ \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ad0751479f8d177062660cc66837312bb}{bubble\+Sort}} (vector$<$ \mbox{\hyperlink{structflatsData}{flats\+Data}} $>$ \&vec)
+\begin{DoxyCompactList}\small\item\em Функция сортировки пузырьком \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_ac28fc38f30d234a8501cb3e49a7d8cde}{insert\+Sort}} (vector$<$ \mbox{\hyperlink{structflatsData}{flats\+Data}} $>$ \&vec)
+\begin{DoxyCompactList}\small\item\em Функция сортировки вставками \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_af6fd4fd4a87c72d002c21fa7296d912d}{quick\+Sort}} (vector$<$ \mbox{\hyperlink{structflatsData}{flats\+Data}} $>$ \&vec, int start, int end)
+\begin{DoxyCompactList}\small\item\em Функция быстрой сортирвоки \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a509dd6a6879af80a329dfd7829a6b748}{write\+Data\+To\+Console}} (const vector$<$ \mbox{\hyperlink{structflatsData}{flats\+Data}} $>$ \&a)
+\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8cpp_a108bf11e733a550950a71842d023b9b8}{dims}} \mbox{[}9\mbox{]} = \{100, 500, 1000, 2000, 10000, 15000, 30000, 50000, 100000\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_ad0751479f8d177062660cc66837312bb}\label{main_8cpp_ad0751479f8d177062660cc66837312bb}} 
+\index{main.cpp@{main.cpp}!bubbleSort@{bubbleSort}}
+\index{bubbleSort@{bubbleSort}!main.cpp@{main.cpp}}
+\doxyparagraph{\texorpdfstring{bubbleSort()}{bubbleSort()}}
+{\footnotesize\ttfamily void bubble\+Sort (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{structflatsData}{flats\+Data}} $>$ \&}]{vec }\end{DoxyParamCaption})}
+
+
+
+Функция сортировки пузырьком 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec} & Массив который надо отсортировать \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a00a8abf2a208d9b58cca735f154cbca9}\label{main_8cpp_a00a8abf2a208d9b58cca735f154cbca9}} 
+\index{main.cpp@{main.cpp}!generateData@{generateData}}
+\index{generateData@{generateData}!main.cpp@{main.cpp}}
+\doxyparagraph{\texorpdfstring{generateData()}{generateData()}}
+{\footnotesize\ttfamily void generate\+Data (\begin{DoxyParamCaption}\item[{int}]{dim }\end{DoxyParamCaption})}
+
+
+
+Функция для генерации данных о пассажирах 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dim} & Количество данных, которое надо сгенерировать \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a81698f882a8b4aa8456ac1466f5dc2bc}\label{main_8cpp_a81698f882a8b4aa8456ac1466f5dc2bc}} 
+\index{main.cpp@{main.cpp}!generateString@{generateString}}
+\index{generateString@{generateString}!main.cpp@{main.cpp}}
+\doxyparagraph{\texorpdfstring{generateString()}{generateString()}}
+{\footnotesize\ttfamily string generate\+String (\begin{DoxyParamCaption}\item[{const int}]{len }\end{DoxyParamCaption})}
+
+
+
+Функция для генерации строки определенной длины 
+
+
+\begin{DoxyParams}{Parameters}
+{\em len} & Длина генерируемой строки \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_ac28fc38f30d234a8501cb3e49a7d8cde}\label{main_8cpp_ac28fc38f30d234a8501cb3e49a7d8cde}} 
+\index{main.cpp@{main.cpp}!insertSort@{insertSort}}
+\index{insertSort@{insertSort}!main.cpp@{main.cpp}}
+\doxyparagraph{\texorpdfstring{insertSort()}{insertSort()}}
+{\footnotesize\ttfamily void insert\+Sort (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{structflatsData}{flats\+Data}} $>$ \&}]{vec }\end{DoxyParamCaption})}
+
+
+
+Функция сортировки вставками 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec} & Массив для соритвроки \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxyparagraph{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{main_8cpp_af6fd4fd4a87c72d002c21fa7296d912d}\label{main_8cpp_af6fd4fd4a87c72d002c21fa7296d912d}} 
+\index{main.cpp@{main.cpp}!quickSort@{quickSort}}
+\index{quickSort@{quickSort}!main.cpp@{main.cpp}}
+\doxyparagraph{\texorpdfstring{quickSort()}{quickSort()}}
+{\footnotesize\ttfamily void quick\+Sort (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{structflatsData}{flats\+Data}} $>$ \&}]{vec,  }\item[{int}]{start,  }\item[{int}]{end }\end{DoxyParamCaption})}
+
+
+
+Функция быстрой сортирвоки 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec} & Массив для сортировки \\
+\hline
+{\em start} & Начало подпоследовательности для сортировки \\
+\hline
+{\em end} & Конец подпоследовательности для сортировки \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a5d6359d7f4ec6869495a0ed77f50ce48}\label{main_8cpp_a5d6359d7f4ec6869495a0ed77f50ce48}} 
+\index{main.cpp@{main.cpp}!readFromFile@{readFromFile}}
+\index{readFromFile@{readFromFile}!main.cpp@{main.cpp}}
+\doxyparagraph{\texorpdfstring{readFromFile()}{readFromFile()}}
+{\footnotesize\ttfamily void read\+From\+File (\begin{DoxyParamCaption}\item[{vector$<$ \mbox{\hyperlink{structflatsData}{flats\+Data}} $>$ \&}]{data }\end{DoxyParamCaption})}
+
+
+
+Функция чтения данных из файла о квартираъ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Массив данных о квартирах \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8cpp_a509dd6a6879af80a329dfd7829a6b748}\label{main_8cpp_a509dd6a6879af80a329dfd7829a6b748}} 
+\index{main.cpp@{main.cpp}!writeDataToConsole@{writeDataToConsole}}
+\index{writeDataToConsole@{writeDataToConsole}!main.cpp@{main.cpp}}
+\doxyparagraph{\texorpdfstring{writeDataToConsole()}{writeDataToConsole()}}
+{\footnotesize\ttfamily void write\+Data\+To\+Console (\begin{DoxyParamCaption}\item[{const vector$<$ \mbox{\hyperlink{structflatsData}{flats\+Data}} $>$ \&}]{a }\end{DoxyParamCaption})}
+
+
+
+\doxysubsubsection{Variable Documentation}
+\mbox{\Hypertarget{main_8cpp_a108bf11e733a550950a71842d023b9b8}\label{main_8cpp_a108bf11e733a550950a71842d023b9b8}} 
+\index{main.cpp@{main.cpp}!dims@{dims}}
+\index{dims@{dims}!main.cpp@{main.cpp}}
+\doxyparagraph{\texorpdfstring{dims}{dims}}
+{\footnotesize\ttfamily int dims\mbox{[}9\mbox{]} = \{100, 500, 1000, 2000, 10000, 15000, 30000, 50000, 100000\}}
+
